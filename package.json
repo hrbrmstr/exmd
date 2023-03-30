@@ -1,0 +1,20 @@
+{
+  "name": "exmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bin": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-front-matter": "^0.2.3",
+    "markdown-it-shiki": "^0.8.0",
+    "shiki": "^0.14.1"
+  }
+}
