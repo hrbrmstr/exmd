@@ -13,6 +13,12 @@
   ],
   "author": "@hrbrmstr",
   "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-front-matter": "^0.2.3",
+    "markdown-it-shiki": "^0.8.0",
+    "shiki": "^0.14.1"
+  },
   "devDependencies": {
     "markdown-it": "^13.0.1",
     "markdown-it-front-matter": "^0.2.3",
