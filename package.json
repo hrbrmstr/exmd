@@ -1,20 +1,23 @@
 {
   "name": "exmd",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Generates Shiki-processed HTML from a Markdown file with JSON front matter",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
-    "bin": "./index.js"
+    "exmd": "./index.js"
   },
-  "author": "",
-  "license": "ISC",
+	"keywords": [
+    "cli",
+    "command-line",
+    "tool"
+  ],
+  "author": "@hrbrmstr",
+  "license": "MIT",
   "devDependencies": {
     "markdown-it": "^13.0.1",
     "markdown-it-front-matter": "^0.2.3",
     "markdown-it-shiki": "^0.8.0",
+    "pkg": "^5.8.1",
     "shiki": "^0.14.1"
   }
 }

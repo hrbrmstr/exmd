@@ -6,9 +6,11 @@ const Shiki = require('markdown-it-shiki').default
 
 let frontMatter;
 
-const ayuDark = JSON.parse(fs.readFileSync('./themes/ayu-dark.json', 'utf8'));
+const ayuDark = JSON.parse(fs.readFileSync(path.join(__dirname, 'themes', 'ayu-dark.json'), 'utf8'));
 
-const md = require('markdown-it')()
+const md = require('markdown-it')({
+	  html:true
+  })
 	.use(Shiki, {
 	  theme: ayuDark
 	})

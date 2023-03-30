@@ -75,11 +75,12 @@ I'll exposit more when time allows.
 
 You can find the source for this experiment [on GitHub](https://github.com/hrbrmstr/webr-file)
 
-<p style="text-align:center;margin-top:2rem;">Brought to you by @hrbrmstr</p>
-
 ```js
   constructor() {
     super();
     this.files = [];
 	}
 ```
+
+
+<p style="text-align:center;margin-top:2rem;">Brought to you by @hrbrmstr</p>
