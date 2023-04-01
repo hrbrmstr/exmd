@@ -51,7 +51,8 @@ if (matterKeys.includes("title")) {
 }
 
 if (matterKeys.includes("og")) {
-	if (frontMatter.og.description)  head += (createMetaTag("og:description", frontMatter.og.description))
+	if (frontMatter.og.description) head += (createMetaTag("description", frontMatter.og.description))
+	if (frontMatter.og.description) head += (createMetaTag("og:description", frontMatter.og.description))
 	if (frontMatter.og.description) head += (createMetaTag("twitter:description", frontMatter.og.description))
 	if (frontMatter.og.url) head += (createMetaTag("og:site", frontMatter.og.url))
 	if (frontMatter.og.site_name) head += (createMetaTag("og:site_name", frontMatter.og.site_name))
